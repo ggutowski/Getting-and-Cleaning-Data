@@ -108,7 +108,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 ---
 Cleaning Data
-
+---
 This tidy dataset was created by:
 
 1. Merging the training and the test sets to create one data set.
