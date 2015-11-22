@@ -67,4 +67,4 @@ merged_traintest$Activity <- factor(merged_traintest$Activity, labels=c("Walking
 melted <- melt(merged_traintest, id=c("Subject","Activity"))
 tidy <- dcast(melted, Subject+Activity ~ variable, mean)
 
-write.table(tidy, "tidy.txt", sep="\t")
+write.table(tidy, "tidy.txt", sep="\t",row.name=FALSE)
