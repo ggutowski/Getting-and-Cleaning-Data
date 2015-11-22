@@ -2,6 +2,30 @@
 title: "Code book"
 output: html_document
 ---
+ 
+Raw data
+---
+
+This project is based on a raw dataset of accelerometer measurements recorded from 30 volunteers performing 6 physical activities each. The data is randomly partititioned into a training dataset (70%) and a test dataset (30%). It can be downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
+
+The zip file contains:  
+
+1. Directory **train** which contains the following files used in this analysis:
+- File X_train.txt  
+- File subject_train.txt  
+- File y_train.txt  
+
+2. Directory **test**  
+- Comparable files to those in **train** for the remaining 30% of the collected data.  
+
+3. File activity_labels.txt which has the name of each physical activity.  
+
+4. File features.txt which has a vector of the 561 features with time and frequency domain variables  
+
+5. File features_info.txt which has more information about the features. 
+
+6. File README.txt which has more detailed information about the contents of each file and the experiment.    
+
 
 ## Attribute Information
 
